@@ -19,7 +19,8 @@ export const WORKSHOP_DETAILS = {
     { name: "IIC", label: "Institution's Innovation Council" },
     { name: "Synopsys", label: "Synopsys University Program & EDA Suite" },
     { name: "Sri Shakthi", label: "Department of ECE (VDT)" }
-  ]
+  ],
+  googleFormUrl: "" // Paste your Google Form URL here
 };
 
 export const VLSI_FLOW_STAGES: VlsiStage[] = [
