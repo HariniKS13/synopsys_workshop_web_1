@@ -25,7 +25,7 @@ export async function POST(request: Request) {
       category: category || 'student',
       institution,
       workstationNumber: `CAD-STATION #${randomStation < 10 ? '0' + randomStation : randomStation}`,
-      fee: 2500,
+      fee: 1500,
       paymentStatus: 'CONFIRMED',
       issuedAt: new Date().toISOString(),
     };

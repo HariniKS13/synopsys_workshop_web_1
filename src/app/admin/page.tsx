@@ -59,7 +59,7 @@ const INITIAL_DEMO_ATTENDEES: AttendeeRecord[] = [
     seatStatus: 'CONFIRMED',
     paymentUtr: '423891048291',
     paymentStatus: 'VERIFIED',
-    paymentAmount: 2500,
+    paymentAmount: 1500,
     qrData: 'PASS:SSIET-VLSI-2026-1042|WORKSTATION:01|UTR:423891048291',
     issuedAt: 'Aug 28, 2026',
     checkedIn: true
@@ -78,7 +78,7 @@ const INITIAL_DEMO_ATTENDEES: AttendeeRecord[] = [
     seatStatus: 'CONFIRMED',
     paymentUtr: '839201948271',
     paymentStatus: 'VERIFIED',
-    paymentAmount: 2500,
+    paymentAmount: 1500,
     qrData: 'PASS:SSIET-VLSI-2026-1089|WORKSTATION:02|UTR:839201948271',
     issuedAt: 'Aug 28, 2026',
     checkedIn: false
@@ -97,7 +97,7 @@ const INITIAL_DEMO_ATTENDEES: AttendeeRecord[] = [
     seatStatus: 'CONFIRMED',
     paymentUtr: '901248192831',
     paymentStatus: 'VERIFIED',
-    paymentAmount: 2500,
+    paymentAmount: 1500,
     qrData: 'PASS:SSIET-VLSI-2026-1154|WORKSTATION:03|UTR:901248192831',
     issuedAt: 'Aug 29, 2026',
     checkedIn: true
@@ -116,7 +116,7 @@ const INITIAL_DEMO_ATTENDEES: AttendeeRecord[] = [
     seatStatus: 'CONFIRMED',
     paymentUtr: '581920492812',
     paymentStatus: 'VERIFIED',
-    paymentAmount: 2500,
+    paymentAmount: 1500,
     qrData: 'PASS:SSIET-VLSI-2026-1205|WORKSTATION:04|UTR:581920492812',
     issuedAt: 'Aug 29, 2026',
     checkedIn: false
@@ -135,7 +135,7 @@ const INITIAL_DEMO_ATTENDEES: AttendeeRecord[] = [
     seatStatus: 'CONFIRMED',
     paymentUtr: '772819204812',
     paymentStatus: 'VERIFIED',
-    paymentAmount: 2500,
+    paymentAmount: 1500,
     qrData: 'PASS:SSIET-VLSI-2026-1311|WORKSTATION:05|UTR:772819204812',
     issuedAt: 'Aug 30, 2026',
     checkedIn: false
@@ -170,7 +170,7 @@ export default function AdminPage() {
     phone: '',
     category: 'student',
     institution: '',
-    department: 'ECE (VDT)',
+    department: 'EE (VDT)',
     academicYear: '3rd Year B.E.',
     rollNumber: '',
     paymentUtr: ''
@@ -224,7 +224,7 @@ export default function AdminPage() {
   const totalSeats = 50;
   const bookedSeats = attendees.length;
   const availableSeats = Math.max(0, totalSeats - bookedSeats);
-  const totalRevenue = bookedSeats * 2500;
+  const totalRevenue = bookedSeats * 1500;
   const checkedInCount = attendees.filter((a) => a.checkedIn).length;
 
   // Handle Login Authentication Gate
@@ -331,7 +331,7 @@ export default function AdminPage() {
       seatStatus: 'CONFIRMED',
       paymentUtr: newAttendee.paymentUtr || `UTR${Date.now().toString().slice(-8)}`,
       paymentStatus: 'VERIFIED',
-      paymentAmount: 2500,
+      paymentAmount: 1500,
       qrData: `PASS:${passId}|WORKSTATION:${nextStationNum}`,
       issuedAt: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
       checkedIn: false
@@ -349,7 +349,7 @@ export default function AdminPage() {
       phone: '',
       category: 'student',
       institution: '',
-      department: 'ECE (VDT)',
+      department: 'EE (VDT)',
       academicYear: '3rd Year B.E.',
       rollNumber: '',
       paymentUtr: ''
@@ -466,7 +466,7 @@ export default function AdminPage() {
                   Coordinator Desk Authentication
                 </h2>
                 <p className="text-xs text-purple-300">
-                  Restricted access for Department of ECE (VDT) faculty and workshop administrators.
+                  Restricted access for Department of EE (VDT) faculty and workshop administrators.
                 </p>
               </div>
 
@@ -563,7 +563,7 @@ export default function AdminPage() {
                   Coordinator Admin Desk
                 </span>
                 <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-purple-900 text-purple-200 border border-purple-700">
-                  ECE (VDT)
+                  EE (VDT)
                 </span>
               </div>
               <p className="text-xs text-purple-300">
@@ -957,7 +957,7 @@ export default function AdminPage() {
                             <span className="truncate">{att.institution}</span>
                           </p>
                           <p className="text-[11px] text-slate-500">
-                            {att.department || 'ECE (VDT)'} • {att.academicYear || '3rd Year'}
+                            {att.department || 'EE (VDT)'} • {att.academicYear || '3rd Year'}
                             {att.rollNumber && ` (Roll: ${att.rollNumber})`}
                           </p>
                         </div>
@@ -1063,7 +1063,7 @@ export default function AdminPage() {
 
                             {/* Department & Year */}
                             <td className="py-3.5 px-4">
-                              <p className="text-slate-800 font-medium">{att.department || 'ECE (VDT)'}</p>
+                              <p className="text-slate-800 font-medium">{att.department || 'EE (VDT)'}</p>
                               <p className="text-slate-500 text-xs">{att.academicYear || '3rd Year B.E.'}</p>
                               {att.rollNumber && (
                                 <p className="text-[10px] text-purple-700 font-mono">Roll: {att.rollNumber}</p>
@@ -1310,7 +1310,7 @@ export default function AdminPage() {
               <div>
                 <p className="text-[10px] uppercase font-mono text-slate-400">College / Department</p>
                 <p className="text-slate-800 font-medium">{selectedStationAttendee.institution}</p>
-                <p className="text-slate-500 text-xs">{selectedStationAttendee.department || 'ECE (VDT)'}</p>
+                <p className="text-slate-500 text-xs">{selectedStationAttendee.department || 'EE (VDT)'}</p>
               </div>
 
               <div className="grid grid-cols-2 gap-2">

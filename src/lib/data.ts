@@ -3,12 +3,12 @@ import { VlsiStage, ScheduleItem } from './types';
 export const WORKSHOP_DETAILS = {
   title: "National-Level Hands-on Workshop on Front-End VLSI Design Flow in Synopsys EDA Suite",
   institution: "Sri Shakthi Institute of Engineering and Technology",
-  department: "Department of Electronics Engineering (VLSI Design and Technology) [ECE (VDT)]",
-  organizingBody: "Department of ECE (VDT)",
+  department: "Department of Electronics Engineering (VLSI Design and Technology) [EE (VDT)]",
+  organizingBody: "Department of EE (VDT)",
   venue: "VLSI Research Lab, Tech Park, Sri Shakthi Campus",
   time: "8:30 AM – 4:30 PM (Full Day Intensive)",
   dateNotice: "Dates to be Announced Soon • Registrations Open",
-  fee: "₹2,500",
+  fee: "₹1,500",
   seatsTotal: 50,
   seatsRemaining: 14,
   mode: "1:1 Dedicated Single-Monitor CAD Workstation (Hands-on, Zero Laptop Required)",
@@ -18,7 +18,7 @@ export const WORKSHOP_DETAILS = {
     { name: "C2S", label: "Chip to Startup Programme" },
     { name: "IIC", label: "Institution's Innovation Council" },
     { name: "Synopsys", label: "Synopsys University Program & EDA Suite" },
-    { name: "Sri Shakthi", label: "Department of ECE (VDT)" }
+    { name: "Sri Shakthi", label: "Department of EE (VDT)" }
   ],
   googleFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSehpT8DM49SR9RqHQNXwfrvKV1UUt2bTCwWSyBV9pdcxKPTlQ/viewform"
 };
@@ -269,7 +269,7 @@ export const SCHEDULE_DATA: ScheduleItem[] = [
     highlights: [
       "One Unified Official Certificate issued to all attendees",
       "Take-home code repositories & SDC templates",
-      "Vote of thanks by Department of ECE (VDT)"
+      "Vote of thanks by Department of EE (VDT)"
     ]
   }
 ];
@@ -288,7 +288,7 @@ export const FAQS = [
     answer: "The workshop is open to all engineering students (B.Tech, B.E., M.Tech, M.E. in ECE, EE, VLSI, CSE), PhD research scholars, academic faculty members, and working industry professionals wanting hands-on exposure to the Synopsys front-end design suite."
   },
   {
-    question: "What is included in the ₹2,500 registration fee?",
+    question: "What is included in the ₹1,500 registration fee?",
     answer: "The fee covers full-day hands-on access to 1:1 dedicated single-monitor CAD workstations, access to premium Synopsys EDA tools (VCS, Verdi, SpyGlass, Design Compiler), complete starter RTL code packs and SDC scripts, the official unified training certificate, and morning/afternoon refreshments."
   },
   {

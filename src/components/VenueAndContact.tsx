@@ -50,7 +50,7 @@ export default function VenueAndContact() {
                       <span>Department</span>
                     </div>
                     <p className="text-xs text-slate-700">
-                      Electronics Engineering (VLSI Design and Technology) [ECE (VDT)]
+                      Electronics Engineering (VLSI Design and Technology) [EE (VDT)]
                     </p>
                   </div>
 
@@ -135,7 +135,7 @@ export default function VenueAndContact() {
                     </div>
                     <div>
                       <p className="text-[10px] uppercase font-mono text-purple-300">Organizing Body</p>
-                      <p className="font-semibold text-white">Department of ECE (VDT)</p>
+                      <p className="font-semibold text-white">Department of EE (VDT)</p>
                     </div>
                   </div>
                 </div>

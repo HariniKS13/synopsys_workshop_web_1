@@ -44,7 +44,7 @@ export default function CertificateShowcase() {
                 <div className="hidden sm:flex absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 items-center justify-between">
                   <div className="px-4 py-2 rounded-2xl apple-dark-card border border-white/15 text-white">
                     <p className="text-[10px] text-purple-300 uppercase tracking-widest font-mono font-bold">Issued by</p>
-                    <p className="text-xs sm:text-sm font-semibold">Sri Shakthi • Department of ECE (VDT)</p>
+                    <p className="text-xs sm:text-sm font-semibold">Sri Shakthi • Department of EE (VDT)</p>
                   </div>
 
                   <div className="px-3.5 py-1.5 rounded-full bg-amber-500/90 backdrop-blur-md text-slate-950 text-xs font-bold flex items-center gap-1.5 shadow-md">
@@ -56,7 +56,7 @@ export default function CertificateShowcase() {
 
               {/* Mobile Info Strip Placed BELOW Image so Certificate Mockup is 100% Readable */}
               <div className="sm:hidden mt-2.5 p-2.5 rounded-xl bg-slate-900 border border-purple-900/40 flex items-center justify-between text-xs text-white">
-                <span className="text-[10px] font-mono text-purple-300">Sri Shakthi • ECE (VDT)</span>
+                <span className="text-[10px] font-mono text-purple-300">Sri Shakthi • EE (VDT)</span>
                 <span className="text-amber-400 font-bold flex items-center gap-1 text-[11px]">
                   <Sparkles className="w-3 h-3" />
                   Official Endorsement

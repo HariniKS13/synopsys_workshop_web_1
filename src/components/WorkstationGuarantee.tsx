@@ -122,7 +122,7 @@ export default function WorkstationGuarantee({ onOpenRegister }: WorkstationGuar
                 onClick={onOpenRegister}
                 className="w-full py-3.5 sm:py-4 rounded-full bg-gradient-to-r from-purple-950 via-purple-900 to-indigo-900 hover:from-purple-900 hover:to-indigo-800 text-white text-xs sm:text-sm font-semibold shadow-xl shadow-purple-950/20 active:scale-[0.98] transition-all flex items-center justify-center gap-2"
               >
-                <span>Claim 1 of 50 Workstations (₹2,500)</span>
+                <span>Claim 1 of 50 Workstations (₹1,500)</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             </div>

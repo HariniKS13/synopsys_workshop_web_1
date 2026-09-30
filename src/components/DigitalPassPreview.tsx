@@ -59,7 +59,7 @@ export default function DigitalPassPreview({ pass, onClose }: DigitalPassPreview
               <p className="text-[10px] uppercase font-mono tracking-widest text-purple-300">
                 Sri Shakthi Institute of Engg & Tech
               </p>
-              <p className="text-xs font-bold text-white">Department of ECE (VDT) • Synopsys Masterclass</p>
+              <p className="text-xs font-bold text-white">Department of EE (VDT) • Synopsys Masterclass</p>
             </div>
           </div>
 
@@ -97,7 +97,7 @@ export default function DigitalPassPreview({ pass, onClose }: DigitalPassPreview
 
           <div>
             <p className="text-[10px] font-mono uppercase text-purple-300/80">Registration Fee</p>
-            <p className="text-xs sm:text-sm font-bold text-emerald-400">₹2,500 (PAID)</p>
+            <p className="text-xs sm:text-sm font-bold text-emerald-400">₹1,500 (PAID)</p>
           </div>
         </div>
 

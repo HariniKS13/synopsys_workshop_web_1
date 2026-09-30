@@ -24,11 +24,11 @@ export default function Hero({ onOpenRegister }: HeroProps) {
           <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full apple-glass-card border border-purple-200/80 shadow-sm backdrop-blur-md">
             <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-emerald-500 animate-ping" />
             <span className="text-[10px] sm:text-xs font-mono font-bold text-purple-950 uppercase tracking-wider">
-              MeitY C2S Patronage • Sri Shakthi ECE (VDT)
+              MeitY C2S Patronage • Sri Shakthi EE (VDT)
             </span>
           </div>
           <div className="inline-flex items-center gap-1 px-3 py-1 sm:py-1.5 rounded-full bg-purple-100/90 text-purple-900 border border-purple-200 text-[10px] sm:text-xs font-semibold font-mono">
-            <span>Department of ECE (VDT)</span>
+            <span>Department of EE (VDT)</span>
           </div>
         </div>
 
@@ -108,7 +108,7 @@ export default function Hero({ onOpenRegister }: HeroProps) {
               className="w-full sm:w-auto group relative inline-flex items-center justify-center gap-2.5 sm:gap-3 px-6 sm:px-8 py-3.5 sm:py-4 rounded-full bg-gradient-to-r from-purple-950 via-purple-900 to-indigo-950 text-white font-semibold text-sm sm:text-base shadow-xl shadow-purple-900/25 hover:shadow-purple-900/40 active:scale-[0.98] transition-all duration-300"
             >
               <Sparkles className="w-4 h-4 text-purple-300 animate-pulse" />
-              <span>Register & Reserve Workstation (₹2,500)</span>
+              <span>Register & Reserve Workstation (₹1,500)</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
             </button>
 

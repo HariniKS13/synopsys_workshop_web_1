@@ -29,7 +29,7 @@ export default function Footer({ onOpenRegister }: FooterProps) {
             </div>
 
             <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
-              Department of Electronics Engineering (VLSI Design and Technology) [ECE (VDT)]. Dedicated to cultivating world-class semiconductor EDA engineering talent under national C2S and MeitY initiatives.
+              Department of Electronics Engineering (VLSI Design and Technology) [EE (VDT)]. Dedicated to cultivating world-class semiconductor EDA engineering talent under national C2S and MeitY initiatives.
             </p>
 
             <div className="pt-2 flex flex-wrap items-center gap-2">
@@ -99,7 +99,7 @@ export default function Footer({ onOpenRegister }: FooterProps) {
               onClick={onOpenRegister}
               className="w-full py-3 rounded-full bg-gradient-to-r from-purple-800 to-indigo-700 hover:from-purple-700 hover:to-indigo-600 text-white font-semibold text-xs shadow-lg shadow-purple-950 active:scale-95 transition-all"
             >
-              Reserve Workstation (₹2,500)
+              Reserve Workstation (₹1,500)
             </button>
           </div>
         </div>

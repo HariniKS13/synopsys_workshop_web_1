@@ -40,7 +40,7 @@ export default function RegistrationModal({ isOpen, onClose }: RegistrationModal
     phone: '',
     category: 'student',
     institution: '',
-    department: 'ECE (VLSI Design and Technology)',
+    department: 'EE (VLSI Design and Technology)',
     academicYear: '3rd Year B.E. / B.Tech',
     rollNumber: '',
     cityState: 'Coimbatore, Tamil Nadu',
@@ -105,7 +105,7 @@ export default function RegistrationModal({ isOpen, onClose }: RegistrationModal
         seatStatus: 'CONFIRMED',
         paymentUtr: formData.paymentUtr,
         paymentStatus: 'VERIFIED',
-        paymentAmount: 2500,
+        paymentAmount: 1500,
         paymentTimestamp: nowIso,
         qrData: `PASS:${passId}|WORKSTATION:${stationIndex}|UTR:${formData.paymentUtr}`,
         issuedAt: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
@@ -136,7 +136,7 @@ export default function RegistrationModal({ isOpen, onClose }: RegistrationModal
             <div>
               <div className="flex items-center gap-2">
                 <span className="text-xs font-mono font-bold uppercase tracking-wider text-purple-300">
-                  Sri Shakthi • ECE (VDT)
+                  Sri Shakthi • EE (VDT)
                 </span>
                 <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-950 text-emerald-300 border border-emerald-500/40 font-mono">
                   1:1 Seat Allocation
@@ -385,7 +385,7 @@ export default function RegistrationModal({ isOpen, onClose }: RegistrationModal
                   <p className="text-purple-300 font-bold text-sm">Official Event UPI / Bank Transfer</p>
                   <p>• Account: Sri Shakthi Educational Trust</p>
                   <p>• UPI ID: <strong className="text-amber-300">srishakthi.vlsi@upi</strong></p>
-                  <p>• Fixed Registration Fee: <strong className="text-emerald-400">₹2,500.00</strong></p>
+                  <p>• Fixed Registration Fee: <strong className="text-emerald-400">₹1,500.00</strong></p>
                   <p className="text-[11px] text-slate-400">Includes 1:1 CAD workstation access, kit & official certificate.</p>
                 </div>
               </div>

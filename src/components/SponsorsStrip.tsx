@@ -69,7 +69,7 @@ export default function SponsorsStrip() {
             </div>
             <div>
               <p className="font-bold text-slate-900 text-sm">Sri Shakthi</p>
-              <p className="text-[11px] text-slate-500 leading-tight">Department of ECE (VDT)</p>
+              <p className="text-[11px] text-slate-500 leading-tight">Department of EE (VDT)</p>
             </div>
           </div>
         </div>
