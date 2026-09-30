@@ -20,7 +20,7 @@ export const WORKSHOP_DETAILS = {
     { name: "Synopsys", label: "Synopsys University Program & EDA Suite" },
     { name: "Sri Shakthi", label: "Department of ECE (VDT)" }
   ],
-  googleFormUrl: "" // Paste your Google Form URL here
+  googleFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSehpT8DM49SR9RqHQNXwfrvKV1UUt2bTCwWSyBV9pdcxKPTlQ/viewform"
 };
 
 export const VLSI_FLOW_STAGES: VlsiStage[] = [
