@@ -46,16 +46,6 @@ export default function VenueAndContact() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
                   <div className="p-4 rounded-xl bg-purple-50/70 border border-purple-100 space-y-1.5">
                     <div className="flex items-center gap-2 text-purple-900 font-bold text-xs">
-                      <Building2 className="w-4 h-4" />
-                      <span>Department</span>
-                    </div>
-                    <p className="text-xs text-slate-700">
-                      Electronics Engineering (VLSI Design and Technology) [EE (VDT)]
-                    </p>
-                  </div>
-
-                  <div className="p-4 rounded-xl bg-purple-50/70 border border-purple-100 space-y-1.5">
-                    <div className="flex items-center gap-2 text-purple-900 font-bold text-xs">
                       <Clock className="w-4 h-4" />
                       <span>Timings & Gate Check-in</span>
                     </div>
@@ -74,7 +64,7 @@ export default function VenueAndContact() {
                     </p>
                   </div>
 
-                  <div className="p-4 rounded-xl bg-purple-50/70 border border-purple-100 space-y-1.5">
+                  <div className="p-4 rounded-xl bg-purple-50/70 border border-purple-100 space-y-1.5 sm:col-span-2">
                     <div className="flex items-center gap-2 text-purple-900 font-bold text-xs">
                       <Navigation className="w-4 h-4" />
                       <span>Campus Tech Park</span>
@@ -124,18 +114,20 @@ export default function VenueAndContact() {
                       <Phone className="w-4 h-4" />
                     </div>
                     <div>
-                      <p className="text-[10px] uppercase font-mono text-purple-300">Department Coordinator</p>
-                      <p className="font-semibold text-white">+91 94432 12345 / 0422-2369900</p>
+                      <p className="text-[10px] uppercase font-mono text-purple-300">Staff Coordinator</p>
+                      <p className="font-semibold text-white">Prema</p>
+                      <p className="text-purple-300 font-mono text-xs">+91 99940 93811</p>
                     </div>
                   </div>
 
                   <div className="flex items-center gap-3">
                     <div className="w-9 h-9 rounded-xl bg-purple-800 flex items-center justify-center text-purple-200 shrink-0">
-                      <Building2 className="w-4 h-4" />
+                      <Phone className="w-4 h-4" />
                     </div>
                     <div>
-                      <p className="text-[10px] uppercase font-mono text-purple-300">Organizing Body</p>
-                      <p className="font-semibold text-white">Department of EE (VDT)</p>
+                      <p className="text-[10px] uppercase font-mono text-purple-300">Staff Coordinator</p>
+                      <p className="font-semibold text-white">Renita</p>
+                      <p className="text-purple-300 font-mono text-xs">+91 96293 93089</p>
                     </div>
                   </div>
                 </div>
