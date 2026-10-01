@@ -8,7 +8,6 @@ import VlsiFlowVisualizer from '@/components/VlsiFlowVisualizer';
 import EdaConsoleSimulator from '@/components/EdaConsoleSimulator';
 import WorkstationGuarantee from '@/components/WorkstationGuarantee';
 import ScheduleTimeline from '@/components/ScheduleTimeline';
-import CertificateShowcase from '@/components/CertificateShowcase';
 import VenueAndContact from '@/components/VenueAndContact';
 import FaqAccordion from '@/components/FaqAccordion';
 import Footer from '@/components/Footer';
@@ -48,9 +47,6 @@ export default function Home() {
 
       {/* Full-Day Hands-on Masterclass Schedule */}
       <ScheduleTimeline />
-
-      {/* Unified Official Certification Presentation */}
-      <CertificateShowcase />
 
       {/* Venue, Map, Tech Park & Helpdesk Desk */}
       <VenueAndContact />
