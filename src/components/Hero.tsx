@@ -24,7 +24,7 @@ export default function Hero({ onOpenRegister }: HeroProps) {
           <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full apple-glass-card border border-purple-200/80 shadow-sm backdrop-blur-md">
             <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-emerald-500 animate-ping" />
             <span className="text-[10px] sm:text-xs font-mono font-bold text-purple-950 uppercase tracking-wider">
-              MeitY C2S Patronage • Sri Shakthi EE (VDT)
+              MeitY C2S Patronage • Sri Shakthi
             </span>
           </div>
           <div className="inline-flex items-center gap-1 px-3 py-1 sm:py-1.5 rounded-full bg-purple-100/90 text-purple-900 border border-purple-200 text-[10px] sm:text-xs font-semibold font-mono">
@@ -43,7 +43,7 @@ export default function Hero({ onOpenRegister }: HeroProps) {
           </h1>
 
           <p className="text-sm sm:text-lg lg:text-xl text-slate-600 font-normal leading-relaxed max-w-3xl mx-auto px-2 sm:px-0 reveal-on-scroll delay-150">
-            An intensive, full-day national hands-on masterclass from synthesizable Verilog RTL to Synopsys Design Compiler synthesis, VCS simulation, Verdi debug, and SpyGlass CDC analysis on <strong className="text-purple-950 font-semibold">50 dedicated 1:1 single-monitor CAD workstations</strong>.
+            An intensive, full-day national hands-on masterclass from synthesizable Verilog RTL to Synopsys Design Compiler synthesis, VCS simulation, Verdi debug, and SpyGlass CDC analysis on <strong className="text-purple-950 font-semibold">30 dedicated 1:1 single-monitor CAD workstations</strong>.
           </p>
 
           {/* Quick Metrics Ribbon (Proportionally Scaled for Mobile & Desktop) */}
@@ -58,7 +58,7 @@ export default function Hero({ onOpenRegister }: HeroProps) {
                       Workstations
                     </span>
                   </div>
-                  <p className="text-base sm:text-2xl font-bold text-slate-900 tracking-tight">50 Dedicated</p>
+                  <p className="text-base sm:text-2xl font-bold text-slate-900 tracking-tight">30 Dedicated</p>
                   <p className="text-[10px] sm:text-[11px] text-purple-800 font-medium">1:1 Single-Monitor</p>
                 </div>
 
@@ -159,7 +159,7 @@ export default function Hero({ onOpenRegister }: HeroProps) {
 
                   <div className="px-4 py-2 rounded-2xl apple-dark-card border border-emerald-500/40 text-emerald-300 text-xs font-semibold flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
-                    <span>50 Workstations (1:1 Dedicated)</span>
+                    <span>30 Workstations (1:1 Dedicated)</span>
                   </div>
                 </div>
               </div>
@@ -172,7 +172,7 @@ export default function Hero({ onOpenRegister }: HeroProps) {
                   </span>
                   <span className="text-[10px] font-semibold text-emerald-400 flex items-center gap-1">
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block" />
-                    50 CAD Stations
+                    30 CAD Stations
                   </span>
                 </div>
                 <p className="text-xs font-semibold text-white">

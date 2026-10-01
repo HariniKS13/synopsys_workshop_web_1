@@ -19,7 +19,7 @@ export default function WorkstationGuarantee({ onOpenRegister }: WorkstationGuar
             <span>Infrastructure & Laboratory Guarantee</span>
           </div>
           <h2 className="font-editorial text-2xl sm:text-4xl lg:text-5xl text-slate-950 font-normal tracking-tight">
-            50 Dedicated Workstations •{' '}
+            30 Dedicated Workstations •{' '}
             <span className="italic font-serif bg-gradient-to-r from-purple-950 via-purple-700 to-indigo-700 bg-clip-text text-transparent">
               1:1 Individual Access
             </span>
@@ -37,7 +37,7 @@ export default function WorkstationGuarantee({ onOpenRegister }: WorkstationGuar
               <div className="relative aspect-[16/10] w-full rounded-xl sm:rounded-[2.25rem] overflow-hidden group bg-slate-950">
                 <Image
                   src="/images/vlsi_cad_lab.jpg"
-                  alt="VLSI Research Lab at Sri Shakthi Tech Park with 50 Dedicated Single-Monitor Workstations"
+                  alt="VLSI Research Lab at Sri Shakthi Tech Park with 30 Dedicated Single-Monitor Workstations"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out opacity-95"
                 />
@@ -53,7 +53,7 @@ export default function WorkstationGuarantee({ onOpenRegister }: WorkstationGuar
 
                   <div className="px-4 py-2 rounded-2xl apple-dark-card border border-emerald-500/40 text-emerald-300 text-xs font-semibold flex items-center gap-1.5">
                     <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
-                    <span>50 Single-Monitor Stations</span>
+                    <span>30 Single-Monitor Stations</span>
                   </div>
                 </div>
               </div>
@@ -63,7 +63,7 @@ export default function WorkstationGuarantee({ onOpenRegister }: WorkstationGuar
                 <span className="text-[10px] font-mono text-purple-300">Tech Park VLSI Lab</span>
                 <span className="text-emerald-400 font-bold flex items-center gap-1">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block" />
-                  50 Dedicated Seats
+                  30 Dedicated Seats
                 </span>
               </div>
             </div>

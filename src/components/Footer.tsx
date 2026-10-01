@@ -60,17 +60,12 @@ export default function Footer({ onOpenRegister }: FooterProps) {
               </li>
               <li>
                 <a href="#workstations" className="hover:text-purple-300 transition-colors">
-                  50 Dedicated Workstations (1:1)
+                  30 Dedicated Workstations (1:1)
                 </a>
               </li>
               <li>
                 <a href="#schedule" className="hover:text-purple-300 transition-colors">
                   Day Schedule (8:30 AM - 4:30 PM)
-                </a>
-              </li>
-              <li>
-                <a href="#certificate" className="hover:text-purple-300 transition-colors">
-                  Official Unified Certificate
                 </a>
               </li>
               <li>
@@ -92,7 +87,7 @@ export default function Footer({ onOpenRegister }: FooterProps) {
               Reserve Your CAD System
             </p>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Registrations are strictly capped at 50 participants to preserve 1:1 dedicated single-monitor workstation access.
+              Registrations are strictly capped at 30 participants to preserve 1:1 dedicated single-monitor workstation access.
             </p>
 
             <button

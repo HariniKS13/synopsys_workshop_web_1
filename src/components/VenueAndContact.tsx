@@ -60,7 +60,7 @@ export default function VenueAndContact() {
                       <span>Workstation Setup</span>
                     </div>
                     <p className="text-xs text-slate-700">
-                      50 Dedicated Single-Monitor Enterprise CAD Stations
+                      30 Dedicated Single-Monitor Enterprise CAD Stations
                     </p>
                   </div>
 
@@ -78,7 +78,7 @@ export default function VenueAndContact() {
                 <div className="p-4 rounded-xl bg-slate-900 text-purple-100 text-xs font-mono space-y-1">
                   <p className="text-purple-300 font-bold uppercase tracking-wider">Arrival Checklist:</p>
                   <p>• Bring digital pass confirmation (Pass ID / QR Code)</p>
-                  <p>• Zero laptops required — 50 single-monitor workstations ready</p>
+                  <p>• Zero laptops required — 30 single-monitor workstations ready</p>
                   <p>• Morning tea and evening refreshments provided on-site</p>
                 </div>
               </div>

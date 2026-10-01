@@ -23,9 +23,8 @@ interface NavbarProps {
 
 const NAV_LINKS = [
   { id: 'curriculum', label: 'EDA Flow', subtitle: '5 Industrial ASIC/FPGA Stages', icon: Layers },
-  { id: 'workstations', label: '1:1 Lab', subtitle: '50 Dedicated CAD Workstations', icon: Monitor },
+  { id: 'workstations', label: '1:1 Lab', subtitle: '30 Dedicated CAD Workstations', icon: Monitor },
   { id: 'schedule', label: 'Schedule', subtitle: '8:30 AM – 4:30 PM Hands-on', icon: Calendar },
-  { id: 'certificate', label: 'Certificate', subtitle: 'Unified Official Credential', icon: Award },
   { id: 'venue', label: 'Venue & Lab', subtitle: 'Tech Park, Sri Shakthi Campus', icon: MapPin },
   { id: 'faq', label: 'FAQ', subtitle: 'Essential Workshop Details', icon: HelpCircle },
 ];
@@ -41,7 +40,7 @@ export default function Navbar({ onOpenRegister }: NavbarProps) {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
 
-      const sectionIds = ['curriculum', 'workstations', 'schedule', 'certificate', 'venue', 'faq'];
+      const sectionIds = ['curriculum', 'workstations', 'schedule', 'venue', 'faq'];
       const scrollPosition = window.scrollY + 220;
 
       for (const id of sectionIds) {
@@ -102,7 +101,7 @@ export default function Navbar({ onOpenRegister }: NavbarProps) {
           {/* Desktop Live Status Beacon */}
           <div className="hidden xl:flex items-center gap-2 px-3 py-1 rounded-full bg-purple-50/80 border border-purple-100/90 text-[11px] font-medium text-purple-950">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
-            <span className="font-mono font-bold">50 CAD Stations</span>
+            <span className="font-mono font-bold">30 CAD Stations</span>
             <span className="text-slate-400">•</span>
             <span className="text-slate-600">Tech Park Lab</span>
           </div>

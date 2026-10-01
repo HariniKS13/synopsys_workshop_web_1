@@ -9,7 +9,7 @@ export const WORKSHOP_DETAILS = {
   time: "8:30 AM – 4:30 PM (Full Day Intensive)",
   dateNotice: "Dates to be Announced Soon • Registrations Open",
   fee: "₹1,500",
-  seatsTotal: 50,
+  seatsTotal: 30,
   seatsRemaining: 14,
   mode: "1:1 Dedicated Single-Monitor CAD Workstation (Hands-on, Zero Laptop Required)",
   certificate: "Unified Official Certificate of Participation & Synopsys Front-End VLSI Design Training",
@@ -293,6 +293,6 @@ export const FAQS = [
   },
   {
     question: "When will the exact workshop date be finalized?",
-    answer: "Dates will be announced shortly. Since capacity is strictly capped at 50 dedicated workstations to ensure 1:1 individual hands-on attention, registrations are open on a first-come, first-served basis. Reserving your seat now locks in your workstation allocation."
+    answer: "Dates will be announced shortly. Since capacity is strictly capped at 30 dedicated workstations to ensure 1:1 individual hands-on attention, registrations are open on a first-come, first-served basis. Reserving your seat now locks in your workstation allocation."
   }
 ];
