@@ -92,12 +92,9 @@ export default function Navbar({ onOpenRegister }: NavbarProps) {
                 <span className="font-bold text-slate-900 tracking-tight text-xs sm:text-base">
                   Sri Shakthi
                 </span>
-                <span className="text-[9px] sm:text-[10px] uppercase font-bold px-1.5 sm:px-2 py-0.5 rounded-full bg-purple-100 text-purple-800 border border-purple-200 font-mono">
-                  EE (VDT)
-                </span>
               </div>
-              <p className="text-[10px] sm:text-[11px] text-slate-500 font-medium hidden md:block">
-                Synopsys Front-End VLSI Masterclass
+              <p className="text-[9px] sm:text-[10px] text-purple-800 font-mono font-bold hidden md:block">
+                EE (VDT) • Synopsys Front-End VLSI Masterclass
               </p>
             </div>
           </a>
