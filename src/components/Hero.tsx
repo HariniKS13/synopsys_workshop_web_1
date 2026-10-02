@@ -30,20 +30,25 @@ export default function Hero({ onOpenRegister }: HeroProps) {
           <div className="inline-flex items-center gap-1 px-3 py-1 sm:py-1.5 rounded-full bg-purple-100/90 text-purple-900 border border-purple-200 text-[10px] sm:text-xs font-semibold font-mono">
             <span>Department of EE (VDT)</span>
           </div>
+          <div className="inline-flex items-center gap-1 px-3 py-1 sm:py-1.5 rounded-full bg-emerald-100 text-emerald-900 border border-emerald-300 text-[10px] sm:text-xs font-bold font-mono">
+            <span>1-Credit Course</span>
+          </div>
         </div>
 
         {/* Masterclass Headline */}
         <div className="text-center max-w-4xl mx-auto space-y-4 sm:space-y-6">
-          <h1 className="font-editorial text-3xl sm:text-5xl lg:text-7xl font-normal text-slate-950 tracking-tight leading-[1.12] sm:leading-[1.08] reveal-on-scroll delay-75">
-            Front-End{' '}
+          <div className="inline-block px-4 py-1 rounded-full bg-purple-50 border border-purple-200 text-purple-900 text-xs sm:text-sm font-semibold uppercase tracking-wider">
+            1-Credit Industry-Oriented Hands-On Training
+          </div>
+          <h1 className="font-editorial text-3xl sm:text-5xl lg:text-6xl font-normal text-slate-950 tracking-tight leading-[1.15] sm:leading-[1.1] reveal-on-scroll delay-75">
+            VLSI Front-End Design{' '}
             <span className="italic font-serif bg-gradient-to-r from-purple-950 via-purple-700 to-indigo-700 bg-clip-text text-transparent">
-              VLSI Design Flow
-            </span>{' '}
-            in Synopsys EDA Suite
+              Using Synopsys EDA Tools
+            </span>
           </h1>
 
           <p className="text-sm sm:text-lg lg:text-xl text-slate-600 font-normal leading-relaxed max-w-3xl mx-auto px-2 sm:px-0 reveal-on-scroll delay-150">
-            An intensive, full-day national hands-on masterclass from synthesizable Verilog RTL to Synopsys Design Compiler synthesis, VCS simulation, Verdi debug, and SpyGlass CDC analysis on <strong className="text-purple-950 font-semibold">30 dedicated 1:1 single-monitor CAD workstations</strong>.
+            An intensive, 2-day national hands-on course on <strong className="text-purple-950 font-semibold">October 23 & 24, 2026</strong> from synthesizable Verilog RTL to Synopsys Design Compiler synthesis, VCS simulation, Verdi debug, and SpyGlass CDC analysis on <strong className="text-purple-950 font-semibold">30 dedicated 1:1 single-monitor CAD workstations</strong>.
           </p>
 
           {/* Quick Metrics Ribbon (Proportionally Scaled for Mobile & Desktop) */}
@@ -79,11 +84,11 @@ export default function Hero({ onOpenRegister }: HeroProps) {
                   <div className="flex items-center justify-center gap-1 sm:gap-1.5 text-purple-700 mb-0.5 sm:mb-1">
                     <Clock className="w-3.5 h-3.5" />
                     <span className="text-[9px] sm:text-[10px] uppercase font-mono tracking-wider font-semibold text-slate-500">
-                      Hours
+                      Dates & Time
                     </span>
                   </div>
-                  <p className="text-base sm:text-2xl font-bold text-slate-900 tracking-tight">8:30 AM – 4:30 PM</p>
-                  <p className="text-[10px] sm:text-[11px] text-purple-800 font-medium">Full-Day Lab Flow</p>
+                  <p className="text-base sm:text-2xl font-bold text-slate-900 tracking-tight">Oct 23 & 24</p>
+                  <p className="text-[10px] sm:text-[11px] text-purple-800 font-medium">8:30 AM – 4:30 PM (2 Days)</p>
                 </div>
 
                 {/* Metric 4 */}
@@ -91,11 +96,11 @@ export default function Hero({ onOpenRegister }: HeroProps) {
                   <div className="flex items-center justify-center gap-1 sm:gap-1.5 text-purple-700 mb-0.5 sm:mb-1">
                     <Award className="w-3.5 h-3.5" />
                     <span className="text-[9px] sm:text-[10px] uppercase font-mono tracking-wider font-semibold text-slate-500">
-                      Accreditation
+                      Course Credit
                     </span>
                   </div>
-                  <p className="text-base sm:text-2xl font-bold text-slate-900 tracking-tight">One Unified</p>
-                  <p className="text-[10px] sm:text-[11px] text-purple-800 font-medium">Official Certificate</p>
+                  <p className="text-base sm:text-2xl font-bold text-slate-900 tracking-tight">1-Credit</p>
+                  <p className="text-[10px] sm:text-[11px] text-purple-800 font-medium">Official Certification</p>
                 </div>
               </div>
             </div>
@@ -124,8 +129,8 @@ export default function Hero({ onOpenRegister }: HeroProps) {
           {/* Date Notice Banner */}
           <div className="pt-1 sm:pt-2 reveal-on-scroll delay-300">
             <p className="text-[11px] sm:text-xs text-purple-900/80 font-medium inline-flex items-center gap-2 px-3.5 sm:px-4 py-1 sm:py-1.5 rounded-full bg-purple-100/60 border border-purple-200/50">
-              <span className="w-1.5 h-1.5 rounded-full bg-purple-600" />
-              <span>{WORKSHOP_DETAILS.dateNotice}</span>
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse" />
+              <span className="font-semibold text-purple-950">{WORKSHOP_DETAILS.dateNotice}</span>
             </p>
           </div>
         </div>

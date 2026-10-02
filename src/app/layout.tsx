@@ -4,8 +4,8 @@ import ScrollObserver from '@/components/ScrollObserver';
 import ScrollProgress from '@/components/ScrollProgress';
 
 export const metadata: Metadata = {
-  title: 'Front-End VLSI Design Flow in Synopsys EDA Suite | Sri Shakthi Institute of Engineering and Technology',
-  description: 'National-Level Hands-on Workshop on Front-End VLSI Design Flow in Synopsys EDA Suite at Sri Shakthi Institute of Engineering and Technology, Dept of EE (VDT). 50 Dedicated 1:1 CAD Workstations.',
+  title: '1-Credit Industry-Oriented Hands-On Training on VLSI Front-End Design Using Synopsys EDA Tools | Sri Shakthi Institute of Engineering and Technology',
+  description: '1-Credit Industry-Oriented Hands-On Training on VLSI Front-End Design Using Synopsys EDA Tools at Sri Shakthi Institute of Engineering and Technology, Dept of EE (VDT). October 23 & 24, 2026. 30 Dedicated 1:1 CAD Workstations.',
   keywords: [
     'VLSI Workshop',
     'Synopsys EDA',

@@ -67,7 +67,7 @@ export default function RegistrationModal({ isOpen, onClose }: RegistrationModal
     setStep('payment');
   };
 
-  const handleFinalSubmit = (e: React.FormEvent) => {
+  const handleFinalSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.paymentUtr || formData.paymentUtr.trim().length < 6) {
       alert('Please enter a valid 12-digit Bank / UPI Transaction Reference (UTR) Number.');
@@ -76,7 +76,23 @@ export default function RegistrationModal({ isOpen, onClose }: RegistrationModal
 
     setIsSubmitting(true);
 
-    setTimeout(() => {
+    try {
+      // Call backend registration & verification email dispatch API
+      let apiPass: any = null;
+      try {
+        const response = await fetch('/api/register', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(formData),
+        });
+        if (response.ok) {
+          const resData = await response.json();
+          apiPass = resData.pass;
+        }
+      } catch (err) {
+        console.warn('API call fallback to local pass generator:', err);
+      }
+
       // Get next available workstation number
       let existing: GeneratedPass[] = [];
       try {
@@ -84,9 +100,9 @@ export default function RegistrationModal({ isOpen, onClose }: RegistrationModal
         if (stored) existing = JSON.parse(stored);
       } catch (err) {}
 
-      const stationIndex = (existing.length % 50) + 1;
-      const stationStr = `CAD-STATION #${stationIndex < 10 ? '0' + stationIndex : stationIndex} (1:1)`;
-      const passId = `SSIET-VLSI-2026-${Math.floor(1000 + Math.random() * 9000)}`;
+      const stationIndex = (existing.length % 30) + 1;
+      const stationStr = apiPass?.workstationNumber || `CAD-STATION #${stationIndex < 10 ? '0' + stationIndex : stationIndex} (1:1)`;
+      const passId = apiPass?.passId || `SSIET-VLSI-2026-${Math.floor(1000 + Math.random() * 9000)}`;
 
       const nowIso = new Date().toISOString();
       const pass: GeneratedPass = {
@@ -121,7 +137,10 @@ export default function RegistrationModal({ isOpen, onClose }: RegistrationModal
       setGeneratedPass(pass);
       setIsSubmitting(false);
       setStep('pass');
-    }, 600);
+    } catch (err) {
+      setIsSubmitting(false);
+      alert('Registration could not be completed. Please try again.');
+    }
   };
 
   return (

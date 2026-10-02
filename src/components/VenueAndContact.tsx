@@ -47,10 +47,10 @@ export default function VenueAndContact() {
                   <div className="p-4 rounded-xl bg-purple-50/70 border border-purple-100 space-y-1.5">
                     <div className="flex items-center gap-2 text-purple-900 font-bold text-xs">
                       <Clock className="w-4 h-4" />
-                      <span>Timings & Gate Check-in</span>
+                      <span>Dates & Timings</span>
                     </div>
-                    <p className="text-xs text-slate-700">
-                      8:30 AM Check-in Desk • 9:30 AM to 4:30 PM Hands-on Lab
+                    <p className="text-xs text-slate-700 font-medium">
+                      October 23 & 24, 2026 • 8:30 AM Check-in • 9:30 AM – 4:30 PM Hands-on
                     </p>
                   </div>
 

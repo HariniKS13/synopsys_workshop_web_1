@@ -1,13 +1,13 @@
 import { VlsiStage, ScheduleItem } from './types';
 
 export const WORKSHOP_DETAILS = {
-  title: "National-Level Hands-on Workshop on Front-End VLSI Design Flow in Synopsys EDA Suite",
+  title: "1-Credit Industry-Oriented Hands-On Training on VLSI Front-End Design Using Synopsys EDA Tools",
   institution: "Sri Shakthi Institute of Engineering and Technology",
   department: "Department of Electronics Engineering (VLSI Design and Technology) [EE (VDT)]",
   organizingBody: "Department of EE (VDT)",
   venue: "VLSI Research Lab, Tech Park, Sri Shakthi Campus",
-  time: "8:30 AM – 4:30 PM (Full Day Intensive)",
-  dateNotice: "Dates to be Announced Soon • Registrations Open",
+  time: "8:30 AM – 4:30 PM (October 23 & 24, 2026)",
+  dateNotice: "Registrations Open • October 23 & 24, 2026",
   fee: "₹1,500",
   seatsTotal: 30,
   seatsRemaining: 14,
@@ -292,7 +292,7 @@ export const FAQS = [
     answer: "The fee covers full-day hands-on access to 1:1 dedicated single-monitor CAD workstations, access to premium Synopsys EDA tools (VCS, Verdi, SpyGlass, Design Compiler), complete starter RTL code packs and SDC scripts, the official unified training certificate, and morning/afternoon refreshments."
   },
   {
-    question: "When will the exact workshop date be finalized?",
-    answer: "Dates will be announced shortly. Since capacity is strictly capped at 30 dedicated workstations to ensure 1:1 individual hands-on attention, registrations are open on a first-come, first-served basis. Reserving your seat now locks in your workstation allocation."
+    question: "When will the workshop be conducted?",
+    answer: "The workshop is scheduled for October 23 & 24, 2026 from 8:30 AM to 4:30 PM in the VLSI Research Lab at Sri Shakthi Tech Park. Since capacity is strictly capped at 30 dedicated workstations to ensure 1:1 individual hands-on attention, registrations are open on a first-come, first-served basis."
   }
 ];

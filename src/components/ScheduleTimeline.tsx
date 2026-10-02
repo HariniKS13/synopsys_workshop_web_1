@@ -12,16 +12,16 @@ export default function ScheduleTimeline() {
         <div className="text-center space-y-4 mb-16 reveal-on-scroll">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-purple-100/90 text-purple-900 border border-purple-200 text-xs font-semibold uppercase tracking-wider">
             <Clock className="w-3.5 h-3.5" />
-            <span>Full-Day Hands-on Schedule</span>
+            <span>October 23 & 24, 2026 • 2-Day Hands-on Training</span>
           </div>
           <h2 className="font-editorial text-3xl sm:text-5xl text-slate-950 font-normal tracking-tight">
-            Full-Day Masterclass{' '}
+            2-Day Masterclass{' '}
             <span className="italic font-serif bg-gradient-to-r from-purple-950 via-purple-700 to-indigo-700 bg-clip-text text-transparent">
               Timeline
             </span>
           </h2>
           <p className="text-sm sm:text-base text-slate-600 font-normal max-w-2xl mx-auto">
-            From 8:30 AM workstation setup to 4:30 PM valedictory, every hour is dedicated to hands-on front-end chip design engineering.
+            From 8:30 AM workstation setup to 4:30 PM valedictory across October 23 & 24, every hour is dedicated to hands-on front-end chip design engineering.
           </p>
         </div>
 
